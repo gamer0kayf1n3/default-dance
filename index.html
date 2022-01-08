@@ -5,8 +5,11 @@ body {
 overflow:hidden;
 }
 </style>
-<video autoplay muted loop>
-<source src="https://drive.google.com/uc?id=1UfHquwUXA2vCtLtfOcUKpRyTQpxGyPpH">
+<video autoplay muted loop playsinline id="vid">
+<source src="https://drive.google.com/uc?id=1UfHquwUXA2vCtLtfOcUKpRyTQpxGyPpH" id="change">
 </video>
+  <script>
+  document.getElementById('vid').play();
+  </script>
 </body>
 </html>
